@@ -1,0 +1,13 @@
+
+#divGiphy {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #divGiphy > img {
+    max-width: 200px;
+  }
+
+  body {
+  background-color: rgb(150, 144, 144);
+}
