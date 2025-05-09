@@ -11,3 +11,36 @@
   body {
   background-color: rgb(150, 144, 144);
 }
+
+nav ul {
+  display: block; /* Stack items vertically */
+}
+
+nav ul li {
+  margin-bottom: 10px;
+}
+
+nav ul li {
+  margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+  nav ul {
+      flex-direction: column; /* Stack items on smaller screens */
+      text-align: center;
+  }
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+input[type="search"] {
+  padding: 12px;
+  width: 300px;
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  font-size: 18px;
+  outline: none;
+}
