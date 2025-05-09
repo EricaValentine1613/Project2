@@ -11,7 +11,7 @@ GIPH Developers, HTML, CSS, and JavaScript.
 2. More functions can be added. 
 3. An upgraded version where you can create your own account.
 # User Stories
-I wanted to search for GIPHs, so I typed what I was looking for in the search bar.
-I wanted to save my favorite GIPHs, so i saved them using the 'save' feature.
-I was trying to find a GIPH that expressed my mood and was able to do so using the search bar.
+1.I wanted to search for GIPHs, so I typed what I was looking for in the search bar.
+2.I wanted to save my favorite GIPHs, so i saved them using the 'save' feature.
+3.I was trying to find a GIPH that expressed my mood and was able to do so using the search bar.
 
