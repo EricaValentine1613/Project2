@@ -11,24 +11,28 @@
      <title>Giphyverse</title>
   </head>
 
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Giphyverse</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Saved</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  </header>
+
   <body>
-    <nav class="vertical-nav">
-      <ul>
-      <section>
-      <nav class=“navbar navbar-expand-lg navbar-light bg-light”>
-        <div id=“my-nav” class=“collapse navbar-collapse”>
-            <ul class=“navbar-nav mr-auto”>
-                <li class=“nav-item active”>
-                    <a class=“nav-link” href=“#”>Home</a>
-                </li>
-                <li class=“nav-item”>
-                    <a class=“nav-link disabled” href=“saved.giphs” tabindex=“-1” aria-disabled=“true”>Saved</a>
-                </li>
-            </ul>
-        </div>
-      </nav>
-    </section>
-  </nav>
     <label for="searchPhrase">Search</label>
     <input type="text" name="searchPhrase" id="searchPhrase">
     <input type="button" value="Search" id="btnSearch">

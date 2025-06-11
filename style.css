@@ -7,22 +7,41 @@
   #divGiphy > img {
     max-width: 200px;
   }
+  header {
+    background-color: #61b1a3; /* Dark background */
+    padding: 20px;
+    text-align: center;
+    color: white; /* White text */
+  }
 
-  body {
-  background-color: rgb(150, 144, 144);
+/* Style for the entire navbar */
+.navbar {
+  width: 100%;
+  position: fixed; /* Optional: Keeps it fixed at the top */
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Ensures it's above other content */
 }
 
-nav ul {
-  display: block; /* Stack items vertically */
+/* Style for navbar links */
+.navbar-nav .nav-link {
+  color: rgb(236, 228, 228); /* White text */
+  font-size: 18px;
+  padding: 10px;
 }
 
-nav ul li {
-  margin-bottom: 10px;
+/* Hover effect */
+.navbar-nav .nav-link:hover {
+  background-color: #b3a7a7; /* Darker background on hover */
+  border-radius: 5px;
 }
 
-nav ul li {
-  margin-bottom: 10px;
+/* Active link */
+.navbar-nav .nav-item.active .nav-link {
+  font-weight: bold;
+  color: #f8c400; /* Highlight active link */
 }
+
 @media (max-width: 768px) {
   nav ul {
       flex-direction: column; /* Stack items on smaller screens */
@@ -30,17 +49,29 @@ nav ul li {
   }
 }
 
-.search-container {
+#searchPhrase {
+  width: 300px; /* Adjust width */
+  padding: 10px;
+  font-size: 8px;
+  border: 2px solid #1d1c1c; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+}
+#searchButton {
+  padding: 10px 20px;
+  font-size: 8px; /* Button background */
+  color: white; /* Button text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+body {
   display: flex;
-  justify-content: center;
-  margin-top: 20px;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  height: 100vh; /* Full viewport height */
+  margin: 60px; /* Removes default margin */
 }
 
-input[type="search"] {
-  padding: 12px;
-  width: 300px;
-  border: 2px solid #007bff;
-  border-radius: 8px;
-  font-size: 18px;
-  outline: none;
+ body {
+  background-color: rgb(7, 199, 167);
 }
