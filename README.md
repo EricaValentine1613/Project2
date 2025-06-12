@@ -16,6 +16,8 @@ GIPH Developers, HTML, CSS, and JavaScript.
 3. As someone who wanted to use a GIPH for the first time, I was trying to find a GIPH that expressed my mood and was able to do so using the search bar.
 
 # Wire Frames
-![Alt text](c:\Users\Epv16\OneDrive\Imágenes\project 2 wireframe-1.png)
+![project 2 wireframe-1](https://github.com/user-attachments/assets/6766b1f7-18ca-4959-9d99-77af327caa6d)
 
-![Alt text](c:\Users\Epv16\OneDrive\Imágenes\project 2 wireframe-2.png)
+
+![project 2 wireframe-2](https://github.com/user-attachments/assets/fc05aa2b-8932-45f8-a67c-1a58b01e0443)
+
